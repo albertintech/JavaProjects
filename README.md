@@ -1,3 +1,3 @@
 # JavaProjects
 
-Projects in this repository where created to follow along with the book "Job Ready Java"
+Projects in this repository were created while working along with the book "Job Ready Java"
