@@ -14,4 +14,8 @@ public class vehicles {
         System.out.println("Hello world.");
     }
     
+    public void prompt() {
+        
+    }
+    
 }
