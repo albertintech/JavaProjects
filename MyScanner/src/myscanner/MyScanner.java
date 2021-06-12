@@ -38,8 +38,6 @@ public class MyScanner {
         System.out.println("Please enter your hometown:");
         hometown = myScanner.nextLine();
         
-        
-
         System.out.println("Hi " + name + "! Your age is " + age + ".");
         System.out.println("You are from " + hometown + ".");
         System.out.println("And own " + numComputers + " computers. Nice!");
