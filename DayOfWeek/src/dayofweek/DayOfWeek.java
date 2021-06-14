@@ -33,7 +33,7 @@ public class DayOfWeek {
         } else if (day == 7) {
             dayName = "Sunday";
         } else {
-            dayName = "Oops! Hard coded value is not between 1 and 7!";
+            dayName = "Oops! The hard-coded value is not between 1 and 7!";
         }
         
         System.out.println("This day is " + dayName);
