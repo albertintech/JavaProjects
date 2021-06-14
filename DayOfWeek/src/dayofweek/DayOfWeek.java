@@ -15,29 +15,25 @@ public class DayOfWeek {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int day = 5;
+        int day = 7;
         String dayName = "";
         
         if (day == 1) {
             dayName = "Monday";
-        }
-        if (day == 2) {
+        } else if (day == 2) {
             dayName = "Tuesday";
-        }
-        if (day == 3) {
+        } else if (day == 3) {
             dayName = "Wednesday";
-        }
-        if (day == 4) {
+        } else if (day == 4) {
             dayName = "Thursday";
-        }
-        if (day == 5) {
+        } else if (day == 5) {
             dayName = "Friday";
-        }
-        if (day == 6) {
+        } else if (day == 6) {
             dayName = "Saturday";
-        }
-        if (day == 7) {
+        } else if (day == 7) {
             dayName = "Sunday";
+        } else {
+            dayName = "Oops! Hard coded value is not between 1 and 7!";
         }
         
         System.out.println("This day is " + dayName);
