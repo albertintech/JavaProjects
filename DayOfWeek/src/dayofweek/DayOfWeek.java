@@ -15,7 +15,7 @@ public class DayOfWeek {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int day = 7;
+        int day = 1;
         String dayName = "";
         
         if (day == 1) {
