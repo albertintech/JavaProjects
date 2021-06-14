@@ -16,7 +16,7 @@ public class AboutYou {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int age = 17;
+        int age = 21;
         boolean registered = true;
         
         //See if a person can vote!
