@@ -26,7 +26,7 @@ public class AboutYou {
         
         //See if they are not allowed to vote!
         if( age < 18 || registered != true) {
-            System.out.println("You are not eligible to vote at this time!");
+            System.out.println("You must be at least 18 years old to vote.");
         }
     }
     
