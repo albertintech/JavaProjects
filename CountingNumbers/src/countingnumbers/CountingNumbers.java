@@ -15,14 +15,21 @@ public class CountingNumbers {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Demonstrate a while loop
+//         Demonstrate a while loop
+//        
+//        int counter = 1; initialiezed for the 'while' loop
+//        
+//        int counter; initialized for the 'for' loop
         
-        int counter = 1;
-        
-        while(counter <= 5)
+//        while(counter <= 5)
+//        {
+//            System.out.println( "Counting: " + counter );
+//            counter++;
+//        }
+
+        for ( int counter = 1; counter <= 5; counter++)
         {
             System.out.println( "Counting: " + counter );
-            counter++;
         }
         
         System.out.println("...Done!");
