@@ -5,7 +5,7 @@
  */
 package dayofweek;
 /**
- *
+ * This program illustrates the constructs if-else and switch
  * @author albert
  */
 public class DayOfWeek {
@@ -15,7 +15,7 @@ public class DayOfWeek {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int day = 9;
+        int day = 6;
         String dayName = "";
         
         switch (day) {
@@ -64,6 +64,12 @@ public class DayOfWeek {
 //        }
         
         System.out.println("This day is " + dayName);
+        
+        if(dayName.equals("Saturday") || dayName.equals("Sunday")) {
+            System.out.println("It is the weekend! Enjoy!");
+        } else {
+            System.out.println("It is a weekday. Bummer.");
+        }
         
     }
     
