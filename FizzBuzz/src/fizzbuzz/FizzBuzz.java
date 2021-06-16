@@ -47,7 +47,6 @@ public class FizzBuzz {
             }
             else System.out.print(counter + " ");
             
-           
         }
         
         System.out.println("TRADITIONAL!!!");
