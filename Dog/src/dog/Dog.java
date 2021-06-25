@@ -46,13 +46,21 @@ public class Dog {
         // TODO code application logic here
         
         Dog buster = new Dog();
-
-        buster.setName("Buster");
-        buster.setWeight(15.5);
-        
+        System.out.println("Here is the dog class properties from the "
+                + "default constructor:");
         System.out.println(buster.getName());
         System.out.println(buster.getWeight());
         
+        System.out.println("Now adding hard-coded values using the "
+                + "setName and setWeight methods on the 'buster' object.");
+        buster.setName("Buster");
+        buster.setWeight(15.5);
+        
+        System.out.println("Now passing the getName and getWeight methods though println:");
+        System.out.println(buster.getName());
+        System.out.println(buster.getWeight());
+        
+        System.out.println("Calling the bark and sit methods on the 'buster' object:");
         buster.bark();
         buster.sit();
     }
